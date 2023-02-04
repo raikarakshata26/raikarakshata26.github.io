@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshata's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2/1/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2 class="logo">Welcome!</h2>
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Work Experience</a></li>
+                    <!-- <li><a href="">Projects</a></li> -->
+                    <li><a href="./files/JDev_AkshataResume_HF.pdf" download="Resume_AkshataRaikar" data-target="files/JDev_AkshataResume_HF.pdf">Resume</a></li>
+                    <li><a href="">ContactMe</a></li>
+                </ul>
+
+            </nav>
+
+        </div>
+        <div class="headertext">
+            <h1> Akshata Raikar</h1>
+        </div>
+    </div>
+    <hr>
+    <!-- ---------------------------About----------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/profile.jpeg" width="400" height="650" alt="profile">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p><br>Hi, I am <b>Akshata Raikar.</b> I am a Computer Science Engineer by education.
+                        I have completed my bachelor's degree in Information Technology from Pune
+                        University, India & I am currently pursuing &#127891;<b>Master's in Computer Science at
+                            University of Texas at Arlington.</b> <br><br>
+                        I have 6 years of industry experience as Software Engineer. I have worked in Java, REST API
+                        applications,
+                        Web technologies.Besides my work commitments, I enjoy my free time doing gardening, drawing
+                        doodles & of course
+                        binge watching web series&#128513;<br><br></p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education </p>
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('certification')">Certification</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span><b><u>&#127891;Master's in Computer Science with specialization in Software
+                                            Engineering</u></b><br>
+                                    University of Texas at Arlignton, US <br>
+                                    GPA: 3.8/4</span></li>
+                            <li><span><b><u>&#127891;Bachelor's in Information Technology</u></b><br>
+                                    S.K.N. College of Engineering <br>
+                                    GPA: 7/10</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span><b><u> Languages</b></u><br>
+                                    Java, Python, C,C++, PHP,JavaScript, TypeScript, SQL</span></li>
+                            <li><span><b><u>Frameworks</b></u><br>
+                                    Spring MVC, Spring Boot, Hibernate, Microservices,
+                                    Webservices (SOAP,REST)</li>
+                            <li><span><b><u>Database</b></u><br>
+                                    MySQL, PL/SQL, Oracle, MongoDB</li>
+                            <li><span><b><u>Tools & Libraries</u></b><br>
+                                    Git, Pandas, NumPy, Maven, Jenkins, SonarQube, Mockito,
+                                    Rally, Toad, Eclipse IDE,IntelliJ Idea, Ant, Postman,
+                                    Soap UI, JMeter, Gradle, Jira, Anaconda, Tableau</li>
+                            <li><span><b><u>Other</b></u><br>
+                                    HTML, CSS, AWS, AJAX</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certification">
+                        <ul>
+                            <li><span><b><u><i class="material-icons">cloud</i>AWS Associate Developer </u></b></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------------------Work Experience----------------------- -->
+    <div id="workexp">
+        <div class="container">
+            <div class="row">
+                <h1 class="sub-title">Work Experience</h1>
+                <table >
+                    <!-- <thead>
+                <th>Period</th>
+                <th>Role</th>
+            </thead> -->
+                    <tbody>
+                        <tr>
+                            <td><u><span>Accenture | Application Lead Developer</span></u><br>
+                                2021-2022<br>
+                                &ensp;● &ensp;Designed architecture of multiple service calls, Developed
+                                microservices.<br>
+                                &ensp;● Migration of service to AWS cloud. <br>
+                                &ensp;● Leading team members, guiding them for any technical queries.
+                            </td>
+                            <td>Accenture | Application Lead Developer<br>
+                                &ensp;2021-2022<br>
+                                &ensp;● Designed architecture of multiple service calls, Developed micro services.<br>
+                                &ensp;● Migration of service to AWS cloud. <br>
+                                &ensp;● Leading team members, guiding them for any technical queries.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2017-2029</td>
+                            <td>Software DEveloper</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------------------------------Contact Me------------------------------------ -->
+    <div id="contact">
+        <div class="container">
+             <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa fa-send-o" style="font-size:18px; color: black;"></i> jdev.akshata93@gmail.com</p>
+                    <p><i class="fa fa-mobile-phone" style="font-size:24px"></i></i> +1- 505 439 8899</p>
+                    <div class="social-icons">
+                        <a href="mailto:jdev.akshata93@gmail.com"><i class="fa fa-envelope" style="font-size:36px;color:black"></i></a>
+                        <a href="https://www.linkedin.com/in/akshata-raikar93/"><i class="fa fa-linkedin-square" style="font-size:36px; color: black;"></i></a>
+                        <a href="https://github.com/raikarakshata26"><i class="fa fa-github" style="font-size:36px;color:black"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="your name" required>
+                        <input type="email" name="email" id="your email" required>
+                        <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!---------------------------------------JAVASCRIPT---------------------- -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+
+</html>
