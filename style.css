@@ -126,12 +126,12 @@ h1{
 }
 .tab-contents ul li{
     list-style: none;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 .tab-contents ul li span{
     color: black;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.4;
 }
 .tab-contents{
     display: none;
@@ -239,7 +239,6 @@ form .btn2{
     background: #262626;
     color:#ffff;
     margin-top: 70px;
- 
     margin-bottom:30px;
     font-weight: 300;
 }
@@ -256,6 +255,10 @@ form .btn2{
     color: #262626; 
 }
 
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
 /* -----------------------------------CSS For small screen----------------- */
 
 @media only screen and(max-width:600px){
@@ -269,6 +272,24 @@ form .btn2{
        }
 }
 
+table {
+    border: 1px solid;
+    width: 100%;
+  }
+ td {
+    border: 1px solid;
+    word-wrap: break-word;
+    padding-top: 5px; 
+    padding-left: 5px;
+    padding-right: 5px; 
+    padding-bottom: 15px;
+    text-align: left;
+    width: 1%;
+ }
+
+tr{
+    vertical-align: top;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -276,31 +297,3 @@ html{
   #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
-/* .animate-charcter
-{
-   text-transform: uppercase;
-  background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
-  );
-  background-size: auto auto;
-  background-clip: border-box;
-  background-size: 200% auto;
-  color: #fff;
-  background-clip: text;
-  text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 2s linear infinite;
-  display: inline-block;
-      font-size: 70px;
-}
-
-@keyframes textclip {
-  to {
-    background-position: 200% center;
-  }
-} */
